@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: '<paste your repo link here>'
+                    url: 'https://github.com/Vaishnavip1511-apn/PIPE'
             }
         }
         stage('Compile') {
